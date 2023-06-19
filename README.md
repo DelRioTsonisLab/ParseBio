@@ -7,6 +7,6 @@ This shell script is **_mergeParse.sh_**, which can join multiple BAM files from
 
 ## The options for using mergeParse.sh are:
 ```
-bash  mergeParse.sh   -b  </folder_path/file1.bam>, [</folder_path/file2.bam>, ... ,</folder_path/fileN.bam>]    -g  <inserted_name>   -t   N    -m  <inserted_name>    -s <s1,s2,s3...>
+bash  mergeParse.sh   -b  </folder_path/file1.bam>,[</folder_path/file2.bam>,...,</folder_path/fileN.bam>]    -g  <inserted_name>   -t  N    -m  <inserted_name>    -s <s1,s2,s3...>  -o  <inserted_name>   -v  <inserted_name>
 ```
 For details of all arguments type: bash `mergeParse.sh  -h`
